@@ -7,7 +7,7 @@ from pathlib import Path
 
 import streamlit as st
 
-from CBSE_Class10_Science_Question_Sorter import (
+from sorter import (
     CHAPTERS,
     build_questions,
     create_docx,
